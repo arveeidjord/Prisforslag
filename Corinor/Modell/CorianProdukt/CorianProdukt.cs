@@ -91,7 +91,7 @@ namespace Corinor.Modell.CorianProdukt
         public CorianProdukt(string produktKategori, string navn, DelingType deling)
             :base(deling)
         {
-            Prisgrupper = new CorianPrisgruppeProdukt[10];
+            Prisgrupper = new CorianPrisgruppeProdukt[30];
            
             Navn = navn;
             ProduktKategori = produktKategori;

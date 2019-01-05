@@ -1,0 +1,23 @@
+﻿<Window x:Class="Corinor.Vinduer.TilvalgVindu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Legg til tilvalg" Height="486" Width="647" Loaded="Window_Loaded" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" Icon="/Corinor;component/Images/Corinor4%2016.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="Velg et tilvalg" FontSize="14" FontWeight="Bold" Margin="6,15,0,0" Width="281" TextAlignment="Center" />
+
+        <UserControl Name="tilvalgInnhold" Margin="291,40,12,20" Height="Auto" VerticalAlignment="Top"></UserControl>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right" >
+            <Button Content="Avbryt" FontWeight="Normal" Height="23" HorizontalAlignment="Right" Margin="0,0,12,12" Name="avbrytKnapp" VerticalAlignment="Bottom" Width="75" />
+            <Button Content="Legg til" FontWeight="Normal" Height="23" HorizontalAlignment="Right" IsEnabled="False" Margin="0,0,12,12" Name="LeggTilKnapp" VerticalAlignment="Bottom" Width="75" />
+        </StackPanel>
+        <ListBox Name="tilvalgKombo" SelectedIndex="0" Margin="6,39,0,12" HorizontalAlignment="Left" Width="281" Grid.RowSpan="2" ItemsSource="{Binding Liste}">
+            <!--<ComboBoxItem Content="Hel avrunding" />-->
+        </ListBox>
+    </Grid>
+</Window>

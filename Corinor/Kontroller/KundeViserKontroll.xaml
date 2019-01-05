@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="Corinor.Kontroller.KundeViserKontroll"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="849" d:DesignWidth="638" Loaded="UserControl_Loaded">
+    <Grid>
+        <!--Rødfarge: 232 R, 25 G, 12 B-->
+        <TextBlock  HorizontalAlignment="Left" Margin="0,87,0,0" Name="textBlock1" Text="Prisforslag" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="12,120,0,0" Name="textBlock2" Text="Dato" VerticalAlignment="Top" FontSize="16" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="12,149,0,0" Name="textBlock3" Text="Navn" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="12,178,0,0" Name="textBlock4" Text="Adresse" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="12,207,0,0" Name="textBlock5" Text="Postnummer" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="12,236,0,0" Name="textBlock6" Text="Poststed" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="126,207,0,0" Name="postnummerTekst" Text="postnr" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="126,236,0,0" Name="poststedTekst" Text="poststed" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="126,178,0,0" Name="adresseTekst" Text="adresse" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="126,149,0,0" Name="navnTekst" Text="navn" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="126,120,0,0" Name="datoTekst" Text="dato" VerticalAlignment="Top" />
+        <Rectangle Fill="Black" Height="2" Margin="12,364,0,0" Name="rectangle3" Stroke="Black" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="14,372,0,0" Name="textBlock11" Text="Samlet prisforslag" VerticalAlignment="Top" />
+
+        <StackPanel Margin="215,372,48,0" Height="25" VerticalAlignment="Top" Orientation="Horizontal">
+            <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left"  Name="totalsumTekst" Text="-" VerticalAlignment="Top" />
+            <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Text="inkl. mva." VerticalAlignment="Top" Margin="10,0,0,0"/>
+        </StackPanel>
+        <Rectangle Fill="Black" Height="1" Margin="12,396,0,0" Stroke="Black" VerticalAlignment="Top" />
+        <Rectangle Fill="Black" Height="1" Margin="12,399,0,0" Stroke="Black" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="12,265,0,0" Name="textBlock9" Text="E-post" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="126,265,0,0" Name="epostTekst" Text="epost" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="23" HorizontalAlignment="Left" Margin="12,294,0,0" Name="textBlock12" Text="Telefonnumer" VerticalAlignment="Top" />
+        <TextBlock FontSize="16" Height="Auto" HorizontalAlignment="Left" Margin="126,294,0,0" Name="telefonnrTekst" Text="12345678&#x0a;12345678&#x0a;12345678" VerticalAlignment="Top" />
+        <TextBlock FontSize="13" Height="Auto" HorizontalAlignment="Left" Margin="12,543,0,0" Name="textBlock13" Text="Kommentar til prisforslaget:" VerticalAlignment="Top" />
+        <TextBlock FontSize="12" Margin="12,560,0,0" Width="626" Name="kommentarTekstblokk" Text="-" TextWrapping="Wrap" HorizontalAlignment="Left" />
+        <TextBlock FontSize="13" Height="23" HorizontalAlignment="Left" Margin="12,404,0,0" Name="textBlock14" Text="Merknader:" VerticalAlignment="Top"  />
+        <TextBlock  FontSize="12" Margin="83,406,0,0" Name="merknaderTekstblokk" Text="-" TextWrapping="Wrap" HorizontalAlignment="Left" Width="555" Height="140" VerticalAlignment="Top" />
+        <TextBlock FontSize="12"  HorizontalAlignment="Left" Margin="107,95,0,0" Name="textBlock8" Text="- Eksklusiv eventuell montering og måltaging" VerticalAlignment="Top" />
+        <Image  Height="111" Name="logoBilde" Stretch="Uniform" VerticalAlignment="Top"  Source="/Corinor;component/Images/logofraweb.png" Margin="0,0,2,0" HorizontalAlignment="Right" Width="173" />
+        <!--<TextBlock Height="23" HorizontalAlignment="Left" Margin="48,39,0,0" Name="textBlock1" Text="CORINOR AS" VerticalAlignment="Top" FontFamily="Arial black" FontWeight="Bold" FontSize="18" />-->
+        <!--1: Farger merket * frarådes brukt på kjøkken og andre hardt belastede arbeidsplasser. Riper, fingermerker og synlige skjøter kan forekomme.&#x0a;2: Farger merket * frarådes brukt på kjøkken og andre hardt belastede arbeidsplasser. Riper, fingermerker og synlige skjøter kan forekomme.&#x0a;3: Farger merket * frarådes brukt på kjøkken og andre hardt belastede arbeidsplasser. Riper, fingermerker og synlige skjøter kan forekomme.-->
+
+    </Grid>
+</UserControl>

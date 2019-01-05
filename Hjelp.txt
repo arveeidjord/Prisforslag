@@ -1,0 +1,38 @@
+#History:
+1.0: Hovedversjon
+1.1: Permissions på Prislistefil
+
+
+#Når ny versjon skal gis ut
+
+1. Endre versjonnummer
+Versjonnummer må endres på følgende plasser(til sammen 5)
+
+    * I Install-prosjektet (Se på properties)
+        Description
+        Subjekt
+        Versjon (Velg Yes på spørsmål om å oppdatere ProductCode for å hindre programkonflikt når programmet installeres)
+    * I Corinor-prosjektet (Høyreklikk -> properties)
+        Assembly Information... (2 plasser)
+
+
+
+2. Gjøre installfilene til en fil med WinRAR
+
+    * Velg begge filer (Setup.exe og Install.exe) -> Høyreklikk og "Add to archive..."
+    * Velg "Create SFX archive"
+    * Skriv inn navn: "Corinor-prisforslag-1.0-installasjon.exe"
+    * Gå til fana Advanced -> SFX options...
+        * Under "Run after extraction" skal det stå "setup.exe" (uten "")
+        * Skal også være "Create in the current folder"
+        * Gå til fanen Mode
+            SilentMode = Hide all
+        * Gå til fanen Update
+            Skal være: "Extract and replace files" og "Overwrite all files"
+        * Gå til fanen Text an icon
+            Under "Load SFX ico from the file" velg så Visno.ico...
+
+3.Testing av installasjonsfil
+
+    * Installer først den forrige versjonen av programmet. Og så installer den nye over den du netopp installerte. Installer det nye programmet en gang til, MEN nå skal du installere det en annen plass på maskinen. Så sammenligner du de to Visno-mappene og ser om alle filene ble overskrevet når du installerte over den forrige versjone.
+        Hvis det er noen filer som ikke er overskrevet så må du i endre versjonsnummer på de prosjektene. Feks. VisningWpfLib.

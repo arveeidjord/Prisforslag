@@ -1,0 +1,1266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<prisliste type="heltre">
+  <tykkelser>
+    <tykkelse tittel="30 mm Fingerskjøtet">
+      <plate tittel="Eik naturell">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1563" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2538" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3465" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4067" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5073" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="3756" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4025" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="4657" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="5539" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="6648" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="7452" />
+      </plate>
+
+      <plate tittel="Eik sort">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="2132" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3509" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="4473" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="5262" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="6662" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4902" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="5403" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="6325" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="7625" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="8728" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="10333" />
+      </plate>
+
+      <plate tittel="Valnøtt Amerikansk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="2371" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="4025" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="5587" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="6214" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="8067" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="5789" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="6519" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="7555" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="8988" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="10851" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="11666" />
+      </plate>
+
+      <plate tittel="Valnøtt Europeisk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="2080" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3290" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="4441" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="5113" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="6581" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4917" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="5211" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="6249" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="7333" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="8321" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="9625" />
+      </plate>
+
+      <plate tittel="Kirsebær">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1799" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3007" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="4166" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4549" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5977" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4423" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4507" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="5259" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="6213" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="7687" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="8288" />
+      </plate>
+
+      <plate tittel="Bambus klass hor">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1853" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2978" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3819" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4465" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5559" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4120" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4513" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="5276" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="6518" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="7404" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="8630" />
+      </plate>
+
+      <plate tittel="Bambus klass vert">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1853" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2978" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3819" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4465" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5559" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4120" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4513" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="5276" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="6518" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="7404" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="8630" />
+      </plate>
+
+      <plate tittel="Ask">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1620" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2584" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3614" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="3959" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5050" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="3750" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4008" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="4657" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="5583" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="6475" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="7253" />
+      </plate>
+
+      <plate tittel="Bjørk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1395" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2264" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="2950" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="3350" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="4219" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="3396" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="3554" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="3947" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="4834" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="5414" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="6178" />
+      </plate>
+
+      <plate tittel="Bøk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1334" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2072" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="2919" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="3229" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="4057" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="3093" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="3371" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="3724" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="4558" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="5462" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="5923" />
+      </plate>
+
+      <plate tittel="Lønn">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1727" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2757" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3815" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4145" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5333" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4064" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4345" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="4964" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="5992" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="7064" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="7901" />
+      </plate>
+
+      <plate tittel="*Iroko">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1641" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2595" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3593" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4013" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="4991" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="3967" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4114" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="4927" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="5666" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="6612" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="7372" />
+      </plate>
+
+      <plate tittel="*Jatoba">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1914" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3038" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3986" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4596" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5928" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4487" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4640" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="5823" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="6666" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="7374" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="8783" />
+      </plate>
+
+      <plate tittel="*Mahogny">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1620" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="2648" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="3614" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="3959" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="5050" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="3928" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4003" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="4657" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="5583" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="6475" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="7253" />
+      </plate>
+
+      <plate tittel="*Merbau">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="1883" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3173" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="4166" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4568" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="6042" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="4498" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="4979" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="5795" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="7117" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="8117" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="9124" />
+      </plate>
+
+      <plate tittel="*Sucupira">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="2131" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3386" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="4565" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="5133" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="6606" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="5049" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="5356" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="6126" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="7739" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="8575" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="9930" />
+      </plate>
+
+      <plate tittel="*Teak">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="2077" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="3479" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="4784" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="4160" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="6958" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="5068" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="5403" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="6349" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="7889" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="9181" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="11012" />
+      </plate>
+
+      <plate tittel="*Wenge">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="2959" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="5073" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="6454" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="7544" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="10100" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="6881" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="7756" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="9489" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="11709" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="12428" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="15021" />
+      </plate>
+    </tykkelse>
+
+
+
+    <!---->
+
+    <tykkelse tittel="40 mm Fingerskjøtet">
+      <plate tittel="Eik naturell">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Eik sort">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Valnøtt Amerikansk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Valnøtt Europeisk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Kirsebær">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bambus klass hor">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bambus klass vert">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Ask">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bjørk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bøk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Lønn">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Iroko">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Jatoba">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Mahogny">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Merbau">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Sucupira">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Teak">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Wenge">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+    </tykkelse>
+
+    <!---->
+
+
+    <tykkelse tittel="30 mm hele staver">
+      <plate tittel="Eik naturell">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Eik sort">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Valnøtt Amerikansk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Valnøtt Europeisk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Kirsebær">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bambus klass hor">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bambus klass vert">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Ask">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bjørk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bøk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Lønn">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Iroko">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Jatoba">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Mahogny">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Merbau">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Sucupira">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Teak">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Wenge">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+    </tykkelse>
+
+
+    <!---->
+
+
+    <tykkelse tittel="40 mm hele staver">
+      <plate tittel="Eik naturell">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Eik sort">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Valnøtt Amerikansk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Valnøtt Europeisk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Kirsebær">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bambus klass hor">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bambus klass vert">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Ask">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bjørk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Bøk">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="Lønn">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Iroko">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Jatoba">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Mahogny">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Merbau">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Sucupira">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Teak">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+
+      <plate tittel="*Wenge">
+        <type tittel="Benkeplate" størrelse="Inntil 300" pris="" />
+        <type tittel="Benkeplate" størrelse="301 x 625" pris="" />
+        <type tittel="Benkeplate" størrelse="626 x 750" pris="" />
+        <type tittel="Benkeplate" størrelse="751 x 930" pris="" />
+        <type tittel="Benkeplate" størrelse="931 x 1250" pris="" />
+
+        <type tittel="Halv hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Halv hjørneplate" størrelse="1200 x 1200" pris="" />
+
+        <type tittel="Hel hjørneplate" størrelse="900 x 900" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1050 x 1050" pris="" />
+        <type tittel="Hel hjørneplate" størrelse="1200 x 1200" pris="" />
+      </plate>
+    </tykkelse>
+
+  </tykkelser>
+
+  <!--TILVALG ###################################################################### -->
+
+  <alletilvalg>
+    <gruppe navn="1. Halv avrunding">
+      <tilvalg navn="Halv avrunding" beskrivelse="Antall avrundinger" pris="511" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="2. Hel avrunding">
+      <tilvalg navn="Hel avrunding" beskrivelse="besk" pris="773" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="3. Skråskjæring">
+      <tilvalg navn="Skråskjæring" beskrivelse="besk" pris="317" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="4. Hjørneskjøt">
+      <tilvalg navn="Hjørneskjøt" beskrivelse="besk" pris="701" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="5. Hulkiler montert">
+      <tilvalg navn="" beskrivelse="besk" pris="754" prisType="normalTusendel" />
+    </gruppe>
+
+    <gruppe navn="6. Hulkiler løse">
+      <tilvalg navn="" beskrivelse="besk" pris="324" prisType="normalTusendel" />
+    </gruppe>
+
+    <gruppe navn="7. Utfresing for nedfellingskum">
+      <tilvalg navn="" beskrivelse="besk" pris="907" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="8. Profilfresing">
+      <tilvalg navn="" beskrivelse="besk" pris="126" prisType="normalTusendel" />
+    </gruppe>
+
+    <gruppe navn="9. Vedlikeholdspakke">
+      <tilvalg navn="" beskrivelse="besk" pris="476" prisType="normal" />
+    </gruppe>
+
+    <!--<gruppe navn="10. Fingerskjøtte/Gjæret vanger">
+      
+    </gruppe>-->
+
+    <gruppe navn="11. Skjærefjel med blodrand og nedkant i front">
+      <tilvalg navn="" beskrivelse="besk" pris="1256" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="12. Avsetningsrist stål">
+      <tilvalg navn="" beskrivelse="besk" pris="459" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="13. Avsetningsstenger i stål">
+      <tilvalg navn="" beskrivelse="besk" pris="2001" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="14. Innfresing av usynlig beslag">
+      <tilvalg navn="" beskrivelse="besk" pris="584" prisType="normal" />
+    </gruppe>
+
+    <!--<gruppe navn="16. Andre oljetyper: På forespørsel">
+      <tilvalg navn="" beskrivelse="besk" pris="0" prisType="normal" />
+    </gruppe>-->
+
+    <gruppe navn="17. Plate for flisleging">
+      <tilvalg navn="" beskrivelse="besk" pris="2074" prisType="kvadratmeter" />
+    </gruppe>
+
+    <gruppe navn="18. Påliming av sarg">
+      <tilvalg navn="" beskrivelse="besk" pris="572" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="19. Bordben i stål">
+      <tilvalg navn="Høyde 870 mm" beskrivelse="besk" pris="635" prisType="normal" />
+      <tilvalg navn="Høyde 1100 mm" beskrivelse="besk" pris="751" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="20. Bordben i tre">
+      <tilvalg navn="Høyde 870 mm" beskrivelse="besk" pris="898" prisType="normal" />
+      <tilvalg navn="Høyde 1100 mm" beskrivelse="besk" pris="1019" prisType="normal" />
+    </gruppe>
+
+    <gruppe navn="Frakt/embalasje">
+      <tilvalg navn="Østlandet" beskrivelse="" pris="0,05" prisType="totalsumXprosent" minstepris="500"/>
+      <tilvalg navn="Sør, Vest og Midt Norge" beskrivelse="" pris="0,06" prisType="totalsumXprosent" minstepris="650"/>
+      <tilvalg navn="Nord for saltfjellet" beskrivelse="" pris="0,08" prisType="totalsumXprosent" minstepris="750" />
+    </gruppe>
+
+  </alletilvalg>
+</prisliste>

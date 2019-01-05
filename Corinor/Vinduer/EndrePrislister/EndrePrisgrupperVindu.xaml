@@ -1,0 +1,175 @@
+﻿<Window x:Class="Corinor.Vinduer.EndrePrislister.EndrePrisgrupperVindu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Endre prisgrupper" Height="624" Width="502" Icon="/Corinor;component/Images/Corinor4%2016.png" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" Loaded="Window_Loaded">
+    <Grid >
+        <StackPanel Name="toolbar" Orientation="Horizontal" VerticalAlignment="Top" Margin="6,6,0,0" Height="28">
+            <StackPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" TargetType="{x:Type Button}" />
+                <Style BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" TargetType="{x:Type Separator}" />
+            </StackPanel.Resources>
+            <Button Focusable="False" Name="nyPrisgruppe">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Corinor;component/Images/add.png"  StretchDirection="Both" Width="20" />
+                    <TextBlock Margin="3,0,0,0">Ny prisgruppe</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Focusable="False" Name="slettPrisgruppe">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Corinor;component/Images/remove.png"  StretchDirection="Both" Width="20" />
+                    <TextBlock Margin="3,0,0,0">Slett prisgruppe</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Focusable="False" Name="endrePrisgruppetittel" Margin="0,0,20,0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Corinor;component/Images/pencil.png" StretchDirection="Both" Width="20" />
+                    <TextBlock Margin="3,0,0,0">Endre prisgruppetittel</TextBlock>
+                </StackPanel>
+            </Button>
+
+           
+
+
+            <!--<Separator />-->
+            <!--<Button Focusable="False" Name="slettKnapp">
+                <StackPanel>
+                    <Image Source="/Corinor;component/Images/remove.png" Stretch="Fill" StretchDirection="Both" Width="20" />
+                    <TextBlock>Slett prisgruppe</TextBlock>
+                </StackPanel>
+            </Button>-->
+        </StackPanel>
+
+
+
+
+        <ListBox HorizontalAlignment="Left" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding Liste}" Margin="6,67,0,229" Name="prisgruppeListboks" Width="155">
+            <ListBox.ItemTemplate>
+                <DataTemplate ><!--DataType="TilvalgGruppe"-->
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Stretch" Margin="6,0,0,0" Text="{Binding PrisgruppeNavn}" />
+                    <DataTemplate.Triggers>
+                        <DataTrigger Binding="{Binding Visible}" Value="false">
+                            <Setter Property="Visibility" Value="Collapsed" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Visible}" Value="true">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </DataTemplate.Triggers>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.Resources>
+                <Style BasedOn="{StaticResource {x:Static ToolBar.ComboBoxStyleKey}}" TargetType="{x:Type ComboBox}" />
+            </ListBox.Resources>
+        </ListBox>
+        <TextBlock FontSize="16" FontWeight="Bold" Margin="6,40,0,0" Name="label1" Text="Prisgrupper" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Left" Width="155" />
+        <TextBlock FontSize="16" FontWeight="Bold" Margin="171,40,12,0" Name="textBlock1" Text="Farger" TextAlignment="Center" VerticalAlignment="Top" />
+        <Button Content="OK" FontWeight="Normal" Height="23" HorizontalAlignment="Right" IsEnabled="True" Margin="0,0,12,12" Name="lagreKnapp" VerticalAlignment="Bottom" Width="75" />
+        <Grid Height="114" Margin="6,0,12,41" Name="grid1" VerticalAlignment="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Row="0">
+                <StackPanel.Resources>
+                    <Style BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" TargetType="{x:Type Button}" />
+                    <Style BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" TargetType="{x:Type Separator}" />
+                </StackPanel.Resources>
+                <TextBlock FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,0,0,0" Name="textBlock3" Text="Merknader" TextAlignment="Center"  />
+                <Button Focusable="False" Name="nyMerknadKnapp" Margin="6,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Corinor;component/Images/add.png" Stretch="Fill" StretchDirection="Both" Width="20" />
+                        <TextBlock Margin="6,0,0,0">Ny merknad</TextBlock>
+                    </StackPanel>
+                </Button>
+
+                <Button Focusable="False" Name="endreMerknadKnapp">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Corinor;component/Images/pencil.png" Stretch="Fill" StretchDirection="Both" Width="20" />
+                        <TextBlock Margin="6,0,0,0">Endre merknadtekst</TextBlock>
+                    </StackPanel>
+                </Button>
+
+                <Button Focusable="False" Name="slettMerknadKnapp">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Corinor;component/Images/remove.png" Stretch="Fill" StretchDirection="Both" Width="20" />
+                        <TextBlock Margin="6,0,0,0">Slett merknad</TextBlock>
+                    </StackPanel>
+                </Button>
+              
+            </StackPanel>
+            <ListView Grid.Row="1" Name="merknaderListboks" ItemsSource="{Binding Merknader}" SelectionMode="Single" ScrollViewer.VerticalScrollBarVisibility="Visible" Margin="0,3,0,0">
+                
+    
+
+                <ListView.View>
+                    <GridView>
+                        <!--<GridViewColumn Width="Auto" Header="Merke">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding MerknadMerke}" FontSize="13" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>-->
+                        <GridViewColumn Header="Merke" DisplayMemberBinding="{Binding MerknadMerke}"/>
+
+
+
+                        <GridViewColumn Header="Merknad" DisplayMemberBinding="{Binding MerknadTekst}" Width="380" />
+                    </GridView>
+                </ListView.View>
+
+            </ListView>
+        </Grid>
+        <ListView ItemsSource="{Binding Farger}" Margin="171,99,12,263" Name="fargerListboks">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Farge" Width="160">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock FontSize="13" Text="{Binding FargeTittel}" Width="155" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Merknadmerke" Width="90">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock FontSize="14" Text="{Binding SetMerknader}" Width="85"   />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBlock Margin="12,0,10,167" Name="merknaderVisning" Text="-" Height="56" VerticalAlignment="Bottom" />
+        <StackPanel Height="28" HorizontalAlignment="Left" Margin="171,65,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="297" Orientation="Horizontal" >
+            <StackPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" TargetType="{x:Type Button}" />
+                <Style BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" TargetType="{x:Type Separator}" />
+            </StackPanel.Resources>
+            <Button Focusable="False" Name="nyFargeKnapp">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Corinor;component/Images/tutorial9_paintbucket.png" StretchDirection="Both" Width="20" />
+                    <TextBlock Margin="3,0,0,0">Ny farge</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Focusable="False" Name="leggTilAlleFargerKnapp">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Corinor;component/Images/document_copy.png" StretchDirection="Both" Width="20" />
+                    <TextBlock Margin="3,0,0,0">Legg til alle farger</TextBlock>
+                </StackPanel>
+            </Button>
+            
+            <Separator />
+            <Button Focusable="False" Name="slettFargeKnapp">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Corinor;component/Images/remove.png" StretchDirection="Both" Width="20" />
+                    <TextBlock Margin="3,0,0,0">Slett farge</TextBlock>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <StackPanel Height="28" HorizontalAlignment="Left" Margin="172,0,0,229" Name="stackPanel2" VerticalAlignment="Bottom" Width="296" Orientation="Horizontal">
+            <TextBox GotFocus="tykkelseTekstboks_GotFocus" KeyUp="tykkelseTekstboks_KeyUp" Name="fargeTekstboks" Text="{Binding Path=FargeIendring.FargeTittel}" Width="150"  />
+            <TextBox GotFocus="tykkelseTekstboks_GotFocus" KeyUp="tykkelseTekstboks_KeyUp" Name="merknadMerkeTekstboks" Text="{Binding Path=FargeIendring.SetMerknader}" Width="90" Margin="6,0,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>

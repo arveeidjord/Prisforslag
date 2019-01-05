@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Corinor.Kontroller.PrisEgendefinertKontroll"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="183" d:DesignWidth="288">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="192*" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Tittel" FontSize="16" Name="tittelLabel" VerticalAlignment="Top" FontWeight="Bold" TextWrapping="WrapWithOverflow" Margin="0,0,1,0" />
+
+        <Label Content="Sum for tilvalget" FontSize="18" HorizontalAlignment="Left" Margin="20,72,0,0" Name="label1" VerticalAlignment="Top" Grid.Row="1" />
+        <Label Content="{Binding TotalPris}" FontSize="18" HorizontalAlignment="Left" Margin="193,75,0,0" Name="totalPris" VerticalAlignment="Top" Height="31" Width="92" Grid.Row="1" />
+
+        <Label Content="Antall enheter" FontSize="14" Height="28" HorizontalAlignment="Left"  Name="beskrivelseLabel" VerticalAlignment="Top" Margin="20,30,0,0" Grid.Row="1" />
+        <TextBox Height="23" Margin="193,34,0,0"  Name="antallEnheterTekstBoks" Text="0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="55" Grid.Row="1" />
+        <Label Content="Pris per enhet" FontSize="14" Height="28" HorizontalAlignment="Left" Margin="20,4,0,0" Name="prisPerEnhetTekstLabel" VerticalAlignment="Top"  Grid.Row="1" />
+        <TextBox Text="1000" FontSize="14" Height="23" HorizontalAlignment="Left" Margin="193,8,0,0" Name="prisPerEnhetTekstboks" VerticalAlignment="Top" Width="92" Grid.Row="1" />
+    </Grid>
+</UserControl>

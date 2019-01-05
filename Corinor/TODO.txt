@@ -1,0 +1,105 @@
+﻿
+MEmmory: http://svetoslavsavov.blogspot.com/2010/05/memory-leaks-in-wpf-applications.html
+
+#TODO
+
+*	SJEKK TODOs
+	
+
+*	Minnproblemer
+		- Er treg når man endrer kategori (update av view i listview) i EndreCorianPrisliste
+		- Releaser ikke minnet etter hvert.
+
+*	Hva skjer med utskrift hvis det blir lange kolonner i prisforslaget?
+
+*	Hva skjer hvis du endrer kategori på corianprodukt og trykker nedover (ikke bortover). (lost_focus)
+
+
+
+FERDIGE:
+
+*	NEI! På utskriften bør det stå hvilke prisliste som er brukt? NEI! Se mail!
+*	I tillegg til å kunne sende som mail må det også gå ann å lagre som PDF
+*	I kundeinformasjonsvinduet hopper markøren feil hvis du tab-er deg rundt
+*	Når du endrer tittel på en tilvalggruppe blir den ikke oppdatert i GUI-et (HACK: Gjøres med å endre datacontext)
+*	Må kunne velge å skrive ut liggende når du lagrer som PDF/mail
+*	Gjøre alle textboxene om til textblock-er for å spare minne og tid
+	under endring av heltreprislister. Og sånn at bare den som er selecta
+	får textboxer.
+
+
+Møte 1:
+
+OK Benkeplatetype - Antall
+OK Vedlikeholdspakke standard
+OK Pris ink moms - frakt uten moms
+OK Kundeinformasjon:
+OK 	- Telefon (3 nummer)
+OK 	- Epost
+	 
+
+Corian:
+Vanger som flere linjer
+Veiledendepris = løpemeterpris
+
+
+-----
+
+
+Til møte 2:
+ - Sende epost:
+	- Sende direkte fra programmet -> krever smtp server/mailserver og brukernavn/passord
+	- åpne mailprogram...
+- Heltrefrakt: Lagt inn i prislista inkl. mva.
+- Frakt for Corian?
+
+
+Møte 2:
+
+OK! Send oversikt (timeliste)
+OK! Emballasje !!!
+OK! Fraktknapp: Frakt og tilvalg
+OK! Skrive inn selv i eposten hvem den skal sendes til (og hente epost fra kundeinfoen)
+OK! Profilfresing som standard - kunne endre løpemeter i prisforsalget
+OK! Knapp for kummer i Corian
+OK! Endring av prisliste passord
+
+
+OK! Velge farge først
+-   Skifte farge senere
+OK! Fargevalg med merke kommer opp med teksten (# *) på utskriften
+OK! Endre heltreprodukter: Antall/Løpemeter checkbox (gjør mer forståelig)
+
+
+
+
+Til møte 3:
+ - Dette er gjort
+	- Mulighet for å lagre som PDF
+	- Profilresing som standard
+	- Kunne endre antall i prisforslaget (NB: Gjort for all produkter, ikke bare profilfresing)
+	- Egen kum-knapp for Corian
+	- Passord for å få tilgang til Prisliste behandling: Prisforslag
+	- Kan velge om du vil lagre/maile PDF en stående/liggende
+
+ - Spørsmål:
+	- Hva skal passord for å endre prislisten være
+	- Skal teksten på knappen "Prisliste behandling" beholdes?
+
+ - Må gjøres obs på:
+	- Når man flytter på produkter i CorianProduktVinduet så kan det
+		komme produkter mellom et produkt og underprodukter. De
+		kan flyttes som man vil!
+
+Etter møte 3
+
+OK! Knapp: kummer og servanter
+OK! Passord: Toten
+OK! På utskrift: Eksklusiv eventuell montering og måltaging
+OK! Fjerne på utskrift: Rød, sort linje og legge til logo
+
+40 mb og 2 mb installasjonsfil
+
+
+
+test

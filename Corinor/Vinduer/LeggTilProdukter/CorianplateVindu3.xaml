@@ -1,0 +1,272 @@
+﻿<Window x:Class="Corinor.Vinduer.CorianplateVindu3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prod="clr-namespace:Corinor.Modell.CorianProdukt"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Corianprodukter" Height="548" Width="956" ShowInTaskbar="False" Icon="/Corinor;component/Images/Corinor4%2016.png" Loaded="Window_Loaded" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+
+        <!--<GridViewColumn x:Key="column" Width="Auto" Header="Prisgruppe 3" >
+            <GridViewColumn.CellTemplate>
+                <DataTemplate DataType="CorianProduktType">
+                    <RadioButton GroupName="pris" Visibility="Collapsed" >
+                        <TextBlock MinWidth="50.0" Text="{Binding Path=Prisgrupper[2].Pris}" FontSize="13"/>
+                    </RadioButton>
+                </DataTemplate>
+            </GridViewColumn.CellTemplate>
+        </GridViewColumn>-->
+        
+    </Window.Resources>
+    <Grid>
+        <Grid.Resources>
+
+        </Grid.Resources>
+        
+        
+        <Button Content="Legg til" FontWeight="Normal" Height="23" HorizontalAlignment="Right" IsEnabled="False" Margin="0,0,12,12" Name="LeggTilKnapp" VerticalAlignment="Bottom" Width="75" />
+        <Button Content="Avbryt" FontWeight="Normal" Height="23" HorizontalAlignment="Right" Margin="0,0,98,12" Name="avbrytKnapp" VerticalAlignment="Bottom" Width="75"  />
+        <ListView Margin="10,37,12,151" Name="listview" ><!--ItemsSource='{Binding Source={StaticResource cvs}}'-->
+            <!--ItemContainerStyle="{StaticResource alternatingStyle}"-->
+            <!--ItemsSource='{Binding Source={StaticResource src}}'-->
+            <!--ItemsSource="{Binding XPath=/prisliste/produkttyper/produkttype/produkt}"-->
+
+            <ListView.Resources>
+                <Style BasedOn="{StaticResource {x:Static ToolBar.ToggleButtonStyleKey}}" TargetType="{x:Type RadioButton}">
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    <!--<Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalContentAlignment" Value="Stretch"/>-->
+
+                    <Style.Triggers>
+                        <Trigger Property="Tag">
+                            <Trigger.Value>
+                                <sys:Double>0</sys:Double> 
+                            </Trigger.Value>
+                            <Setter Property="Visibility" Value="Hidden" />
+                        </Trigger>
+                        
+                        <!--<Trigger Property="Tag">
+                            <Trigger.Value>
+                                <sys:String></sys:String>
+                            </Trigger.Value>
+                            <Setter Property="Visibility" Value="Hidden" />
+                        </Trigger>-->
+                        <Trigger Property="Tag" Value="{x:Null}">
+                            <Setter Property="Visibility" Value="Hidden" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+
+                <!--<Style BasedOn="{StaticResource {x:Type TextBlock}}"  TargetType="{x:Type TextBlock}">
+                    <Style.Triggers>
+                        <Trigger Property="Text" Value="0">
+                            <Setter Property="Visibility" Value="Hidden" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>-->
+
+
+
+
+
+            </ListView.Resources>
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                    <Setter Property="Focusable" Value="false" />
+
+                    <Setter Property="SnapsToDevicePixels" Value="true"/>
+                    <Setter Property="OverridesDefaultStyle" Value="true"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListViewItem">
+                                <Border   Name="Border"  Padding="2"   SnapsToDevicePixels="true"  Background="Transparent">
+                                    <GridViewRowPresenter   VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+
+            <!--<ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                    <Setter Property="Focusable" Value="false" />
+
+                    <Setter Property="SnapsToDevicePixels" Value="true"/>
+                    <Setter Property="OverridesDefaultStyle" Value="true"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListViewItem">
+                                <Border   Name="Border"  Padding="2"   SnapsToDevicePixels="true"  Background="Transparent">
+                                    <GridViewRowPresenter   VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListView.ItemContainerStyle>-->
+
+
+
+
+            <ListView.View>
+                <GridView x:Name="gridview" AllowsColumnReorder="False">
+       
+
+                    <!--<GridViewColumn Width="30" Header="Test" >
+                    </GridViewColumn>-->
+
+                    <GridViewColumn Width="0" Header="Kategori" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ProduktKategori}" FontSize="13"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="30" Header="" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="Auto" Header="Produkt" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="CorianProduktType">
+                                <TextBlock Text="{Binding Navn}" FontSize="13"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+
+                    <GridViewColumn Width="90" Header="Pris (inkl. mva.)" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="CorianProduktType">
+                                <RadioButton GroupName="pris" Click="PrisRadioButton_Click" Tag="{Binding Path=Prisgruppe.Pris}"><!--Loaded="button_Loaded"-->
+                                    <TextBlock HorizontalAlignment="Stretch" TextAlignment="Center" Text="{Binding Path=Prisgruppe.Pris}"  FontWeight="Bold"/> <!--{Binding Path=Prisgrupper[0].Pris}-->
+                                </RadioButton>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="200" Header="Prisgruppe" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="CorianProduktType">
+                                <TextBlock HorizontalAlignment="Right" Foreground="LightGray" Text="{Binding Path=Prisgruppe.Farger.PrisgruppeNavn}" FontSize="13"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+
+
+
+                    <!--<GridViewColumn Width="Auto" Header="Prisgruppe 2" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="CorianProduktType">
+                                <RadioButton GroupName="pris" Click="PrisRadioButton_Click" >
+                                    <TextBlock HorizontalAlignment="Stretch" TextAlignment="Center" Text="{Binding Path=Prisgrupper[1].Pris}"  FontWeight="Bold"/>
+                                </RadioButton>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="Auto" Header="Prisgruppe 3" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="CorianProduktType">
+                                <RadioButton GroupName="pris" Click="PrisRadioButton_Click" >
+                                    <TextBlock HorizontalAlignment="Stretch" TextAlignment="Center" Text="{Binding Path=Prisgrupper[2].Pris}"  FontWeight="Bold"/>
+                                </RadioButton>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>-->
+
+
+
+                    <!--<GridViewColumn Width="100" Header="Prisgruppe 1" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                
+                                <RadioButton Height="24" GroupName="priser" >
+                                    <TextBlock Text="{Binding Path=Prisgrupper[0].Pris}" FontSize="13"/>
+                                </RadioButton>
+                                
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>-->
+
+
+
+                    <!--<GridViewColumn Width="Auto" Header="ID" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate DataType="produkt">
+                                <TextBlock Text="{Binding XPath=@gruppe}" FontSize="13"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>-->
+
+
+ 
+
+                </GridView>
+            </ListView.View>
+
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Margin" Value="0,0,0,5"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type GroupItem}">
+                                        <Expander IsExpanded="True" BorderBrush="#FFA4B97F" BorderThickness="0,0,0,1">
+                                            <Expander.Header>
+                                                <DockPanel>
+                                                    <TextBlock FontWeight="Bold" Text="{Binding Path=Name}" Margin="5,0,0,0" Width="Auto"/>
+                                                </DockPanel>
+                                            </Expander.Header>
+                                            <Expander.Content>
+                                                <ItemsPresenter />
+                                            </Expander.Content>
+                                        </Expander>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+                </GroupStyle>
+            </ListView.GroupStyle>
+            <!--<ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding XPath=@ID}" Width="100" />
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding XPath=@Name}" Width="140" />
+                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding XPath=@Price}" Width="80" />
+                    <GridViewColumn Header="Author" DisplayMemberBinding="{Binding XPath=@Author}" Width="80" />
+                </GridView>
+            </ListView.View>-->
+
+
+
+        </ListView>
+        <UserControl Height="133" Margin="10,0,179,12" Name="innhold" VerticalAlignment="Bottom" />
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,474">
+            <Label Content="Velg farge"  HorizontalAlignment="Left" Margin="10,5,0,0" Name="velgFargeLabel" VerticalAlignment="Top" FontSize="14" Visibility="Collapsed"/>
+            <ComboBox Margin="6,9,0,0" Name="cmbFargevelger2" HorizontalAlignment="Left" Width="264" Height="22" VerticalAlignment="Top" Visibility="Collapsed"/>
+
+            <Label Content="Velg prisgruppe"  HorizontalAlignment="Left" Margin="10,5,0,0" Name="velgPrisgruppeLabel" VerticalAlignment="Top" FontSize="14" Visibility="Collapsed"/>
+            <ComboBox Margin="6,9,0,0" Name="cmbPrisgruppeVelger" HorizontalAlignment="Left" Width="264" Height="22" VerticalAlignment="Top" Visibility="Collapsed"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<prisliste type="corian" xmlns="">
+
+  <!--<produkttyper>
+    <produkttype tittel="Benkeplater">
+
+      <produkt gruppe="1" tittel="Benkeplate 500 - 699 mm">
+        <pris prisTekst="4200" pris="4200" prisgruppeid="1" prisgruppe="Prisgruppe 1" prisType="løpemeterprisXprosent" />
+        <pris prisTekst="4900" pris="4900" prisgruppeid="2" prisgruppe="Prisgruppe 2" prisType="løpemeterprisPlussBeløp" />
+        <pris prisTekst="idPrisXprosent" pris="5300" prisgruppeid="3" prisgruppe="Prisgruppe 3" prisType="idPrisXprosent" />
+      </produkt>
+
+    </produkttype>
+  </produkttyper>-->
+
+  <produkttyper>
+    <produkttype tittel="Benkeplater">
+      <produktGruppe>
+
+        <produkt tittel="Benkeplate 500 - 699 mm">
+          <pris pris="4200" prisgruppe="Prisgruppe 1" />
+          <pris pris="4900" prisgruppe="Prisgruppe 2" />
+          <pris pris="5300" prisgruppe="Prisgruppe 3" />
+        </produkt>
+
+        <produkt tittel="Bro/endevange 150 mm">
+          <pris pris="4200" prisgruppe="Prisgruppe 1" />
+          <pris pris="4900" prisgruppe="Prisgruppe 2" />
+          <pris pris="5300" prisgruppe="Prisgruppe 3" />
+        </produkt>
+        
+      </produktGruppe>
+    </produkttype>
+  </produkttyper>
+
+
+
+
+
+</prisliste>

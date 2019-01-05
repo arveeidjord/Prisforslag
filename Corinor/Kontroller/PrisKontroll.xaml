@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="Corinor.Kontroller.PrisKontroll"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="53" d:DesignWidth="300">
+    <Grid>
+        <Label Content="Pris for tilvalget" FontSize="16" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="{Binding TotalPris}" FontSize="16" HorizontalAlignment="Left" Margin="135,10,0,0" Name="totalPris" VerticalAlignment="Top" />
+    </Grid>
+</UserControl>

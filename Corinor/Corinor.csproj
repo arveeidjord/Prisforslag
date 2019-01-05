@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A1216BD-09D0-4D49-9258-782748C92A1D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corinor</RootNamespace>
+    <AssemblyName>Corinor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Corinor4 16og32 icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\..\ClosedXML_v0.76.0.0\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PdfSharp.Xps">
+      <HintPath>.\PdfSharp.Xps.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="DataAksess\DataAksess2.cs" />
+    <Compile Include="DataAksess\UpdatePrisliste2.cs" />
+    <Compile Include="Hjelpeklasser\EpostSender.cs" />
+    <Compile Include="Hjelpeklasser\GlobaleUrier.cs" />
+    <Compile Include="Hjelpeklasser\KontrollHjelper.cs" />
+    <Compile Include="Hjelpeklasser\Serializer.cs" />
+    <Compile Include="Hjelpeklasser\VisualTree.cs" />
+    <Compile Include="ImportExcel.cs" />
+    <Compile Include="Modell\Kontrollbehandling\CorianForslagService.cs" />
+    <Compile Include="Modell\Kontrollbehandling\HeltreplateService.cs" />
+    <Compile Include="Modell\Kontrollbehandling\HovedvinduService.cs" />
+    <Compile Include="Modell\Kontrollbehandling\Printer.cs" />
+    <Compile Include="Modell\Kontrollbehandling\TilvalgHeltreplateService.cs" />
+    <Compile Include="Kontroller\Forslag\CorianForslagKontroll.xaml.cs">
+      <DependentUpon>CorianForslagKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\KundeViserKontroll.xaml.cs">
+      <DependentUpon>KundeViserKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\GruppeKontroll.xaml.cs">
+      <DependentUpon>GruppeKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\PrisEgendefinertKontroll.xaml.cs">
+      <DependentUpon>PrisEgendefinertKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\PrisKontroll.xaml.cs">
+      <DependentUpon>PrisKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\PrisKvadratmeterKontroll.xaml.cs">
+      <DependentUpon>PrisKvadratmeterKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\PrisLøpemeterprisKontroll.xaml.cs">
+      <DependentUpon>PrisLøpemeterprisKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\PrisPerAntallTilvalgKontroll.xaml.cs">
+      <DependentUpon>PrisPerAntallTilvalgKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modell\CorianProdukt\CorianPrisgruppeProdukt.cs" />
+    <Compile Include="Modell\CorianProdukt\CorianProdukt.cs" />
+    <Compile Include="Modell\CorianProdukt\Farge.cs" />
+    <Compile Include="Modell\CorianProdukt\FargeBeholder.cs" />
+    <Compile Include="DataAksess\ProduktBeholder.cs" />
+    <Compile Include="Modell\CorianProdukt\Merknad.cs" />
+    <Compile Include="Modell\Heltre\HeltreProdukt.cs" />
+    <Compile Include="Modell\Produkt.cs" />
+    <Compile Include="Modell\Tilvalg\TilvalgElement.cs" />
+    <Compile Include="Modell\Tilvalg\TilvalgGruppe.cs" />
+    <Compile Include="Presentasjon\Forslag\CorianForslagPresentasjon.cs" />
+    <Compile Include="Presentasjon\Forslag\ForslagPresentasjon.cs" />
+    <Compile Include="Presentasjon\HeltreplatePresentasjon.cs" />
+    <Compile Include="Presentasjon\LøpemeterprisPlussBeløp.cs" />
+    <Compile Include="Presentasjon\LøpemeterprisXprosent.cs" />
+    <Compile Include="Presentasjon\TilvalgEgendefinertPris.cs" />
+    <Compile Include="Presentasjon\TilvalgEnkelPris.cs" />
+    <Compile Include="Presentasjon\TilvalgEnkelPrisTusendel.cs" />
+    <Compile Include="Presentasjon\TilvalgGruppePresentasjon.cs" />
+    <Compile Include="Presentasjon\TilvalgKvadratmeterPris.cs" />
+    <Compile Include="Presentasjon\TilvalgTotalsumXprosent.cs" />
+    <Compile Include="Presentasjon\KontrollProduktPresentasjon.cs" />
+    <Compile Include="Vinduer\EndrePrislister\EndreHeltrePrisliste.xaml.cs">
+      <DependentUpon>EndreHeltrePrisliste.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\EndrePrislister\EndrePrisgrupperVindu.xaml.cs">
+      <DependentUpon>EndrePrisgrupperVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\EndrePrislister\EndrePrisIflerePrisgrupperVindu.xaml.cs">
+      <DependentUpon>EndrePrisIflerePrisgrupperVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\EndrePrislister\EndreTilvalgVindu.xaml.cs">
+      <DependentUpon>EndreTilvalgVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\LeggTilProdukter\CorianplateVindu3.xaml.cs">
+      <DependentUpon>CorianplateVindu3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\EndrePrislister\EndreCorianPrisliste.xaml.cs">
+      <DependentUpon>EndreCorianPrisliste.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\LeggTilProdukter\TilvalgVindu.xaml.cs">
+      <DependentUpon>TilvalgVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\LeggTilProdukter\HeltreplateVindu.xaml.cs">
+      <DependentUpon>HeltreplateVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\KundeVindu.xaml.cs">
+      <DependentUpon>KundeVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\PDFvalgVindu.xaml.cs">
+      <DependentUpon>PDFvalgVindu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vinduer\SendEpostVindu.xaml.cs">
+      <DependentUpon>SendEpostVindu.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Kontroller\Forslag\CorianForslagKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\Forslag\HeltreForslagKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\KundeViserKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\GruppeKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\PrisEgendefinertKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\PrisKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\PrisKvadratmeterKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\PrisLøpemeterprisKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kontroller\PrisPerAntallTilvalgKontroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modell\Kontrollbehandling\HeltreForslagService.cs" />
+    <Compile Include="Kontroller\Forslag\HeltreForslagKontroll.xaml.cs">
+      <DependentUpon>HeltreForslagKontroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Vinduer\EndrePrislister\EndreHeltrePrisliste.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\EndrePrislister\EndrePrisgrupperVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\EndrePrislister\EndrePrisIflerePrisgrupperVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\EndrePrislister\EndreTilvalgVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\LeggTilProdukter\CorianplateVindu3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\EndrePrislister\EndreCorianPrisliste.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\LeggTilProdukter\TilvalgVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\LeggTilProdukter\HeltreplateVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\KundeVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\PDFvalgVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vinduer\SendEpostVindu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Presentasjon\Forslag\HeltreForslagPresentasjon.cs" />
+    <Compile Include="Presentasjon\ProduktPresentasjon.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Brukerveiledning.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Brukerveiledning_Prislistebehandling.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Hva er nytt.pdf" />
+    <None Include="Prisliste.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document_letter_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document_letter_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document_letter_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Corinor4 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\new_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\remove_minus_sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\rich_text_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\sprocket_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\error_del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\printer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\printer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\printer3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\printer4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\printer5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\contact_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\contact_blue_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\diamonds_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\group_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\group_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\system-question-alt-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\sink2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calendar_day_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calendar_day_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\calendar_week.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Corinorbanner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Corinor4 16og32 icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mail_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\water_drink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\file-pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\rich_text_color1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tutorial9_paintbucket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\water_drink1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\water_drink2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\report_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\report_purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow-down-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\arrow-up-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document_copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logofraweb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\gem_cancel_1.png" />
+    <Resource Include="Images\gem_okay.png" />
+    <Resource Include="Images\gem_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\information.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,190 @@
+﻿<Window x:Class="Corinor.Vinduer.EndrePrislister.EndreTilvalgVindu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Endre tilvalg" Height="431" Width="902" Loaded="Window_Loaded" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" Icon="/Corinor;component/Images/Corinor4%2016.png">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Name="toolbar" VerticalAlignment="Top" Margin="3">
+            <StackPanel.Resources>
+                <Style BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" TargetType="{x:Type Button}" />
+                <Style BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" TargetType="{x:Type Separator}" />
+            </StackPanel.Resources>
+
+            <Button Focusable="False" Name="nyTilvalgGruppe">
+                <StackPanel>
+                    <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/add.png" />
+                    <TextBlock>Ny tilvalggruppe</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Focusable="False" Name="endreTilvalggruppeTittelKnapp">
+                <StackPanel>
+                    <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/pencil.png" />
+                    <TextBlock>Endre tilvalggruppetittel</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Separator />
+
+            <Button Focusable="False" Name="slettKnapp">
+                <StackPanel>
+                    <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/remove.png" />
+                    <TextBlock>Slett tilvalggruppe</TextBlock>
+                </StackPanel>
+            </Button>
+            
+            <Separator />
+
+            <Button Focusable="False" Name="oppKnapp">
+                <StackPanel>
+                    <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/arrow-up-alt.png" />
+                    <TextBlock>Flytt opp</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Focusable="False" Name="nedKnapp">
+                <StackPanel>
+                    <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/arrow-down-alt.png" />
+                    <TextBlock>Flytt ned</TextBlock>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+
+        <Button Content="Lagre" FontWeight="Normal" Height="23" HorizontalAlignment="Right"  Margin="0,0,12,12" Name="lagreKnapp" IsEnabled="True" VerticalAlignment="Bottom" Width="75" />
+        <Button Content="Avbryt" FontWeight="Normal" Height="23" HorizontalAlignment="Right" Margin="0,0,98,12" Name="avbrytKnapp" VerticalAlignment="Bottom" Width="75"/>
+
+        <TextBlock Text="Tilvalggrupper" Margin="6,48,0,0" Name="label1" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" TextAlignment="Center" HorizontalAlignment="Left" Width="296" />
+        <ListBox Margin="6,78,0,12" Name="tilvalggruppeListBox"  IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding TilvalgGruppeListe}" HorizontalAlignment="Left" Width="300">
+            <ListBox.Resources>
+                <Style BasedOn="{StaticResource {x:Static ToolBar.ComboBoxStyleKey}}" TargetType="{x:Type ComboBox}">
+                </Style>
+            </ListBox.Resources>
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="TilvalgGruppe" >
+                    <Grid HorizontalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <ComboBox SelectedIndex="{Binding DelingInt}" Grid.Column="0" HorizontalAlignment="Right" >
+                            <ComboBox.Items>
+                                <ComboBoxItem Content="Corian" />
+                                <ComboBoxItem Content="Heltre" />
+                                <ComboBoxItem Content="Begge" />
+                            </ComboBox.Items>
+                        </ComboBox>
+                        <TextBlock Text="{Binding GruppeTittel}" Grid.Column="1" HorizontalAlignment="Stretch" Margin="6,0,0,0" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+             
+        
+        </ListBox>
+        
+        <UserControl Name="tilvalgKontroll" Margin="312,78,0,41" Visibility="Hidden">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Name="toolbarInni" VerticalAlignment="Top" Margin="3">
+                    <StackPanel.Resources>
+                        <Style BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" TargetType="{x:Type Button}" />
+                        <Style BasedOn="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" TargetType="{x:Type Separator}" />
+                    </StackPanel.Resources>
+
+                    <Button Focusable="False" Name="nyttTilvalgKnapp">
+                        <StackPanel>
+                            <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/add.png" />
+                            <TextBlock>Nytt tilvalg</TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                    <Separator />
+
+                    <Button Focusable="False" Name="slettTilvalgKnapp">
+                        <StackPanel>
+                            <Image  Stretch="Fill" StretchDirection="Both" Width="20" Source="/Corinor;component/Images/remove.png" />
+                            <TextBlock>Slett tilvalg</TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <ListView Grid.Row="1" IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding TilvalgListe}" Name="tilvalgListbox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                    <ListView.Resources>
+                        <Style BasedOn="{StaticResource {x:Static ToolBar.ComboBoxStyleKey}}" TargetType="{x:Type ComboBox}">
+                            <!--<Style.Triggers>
+                                <Trigger Property="Text" Value="">
+                                    <Setter Property="Visibility" Value="Hidden" />
+                                </Trigger>
+                            </Style.Triggers>-->
+                        </Style>
+                    </ListView.Resources>
+                    
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListViewItem}">
+                            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalAlignment" Value="Stretch"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+
+                    <ListView.View>
+                        <GridView x:Name="gridview" AllowsColumnReorder="False">
+
+                            <GridViewColumn Width="230" Header="Tittel" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding TilvalgTittel}" FontSize="13"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                            <GridViewColumn Width="130" Header="Type" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ComboBox FontSize="13" SelectedIndex="{Binding Path=PrisBeregningTypeInt}" HorizontalAlignment="Stretch">
+                                            <ComboBox.Items>
+                                                <ComboBoxItem>Pris per stykk</ComboBoxItem>
+                                                <ComboBoxItem>Løpemeterpris</ComboBoxItem>
+                                                <ComboBoxItem>Kvadratmeterpris (mm)</ComboBoxItem>
+                                                <ComboBoxItem>Totalsum * prosent(pris)</ComboBoxItem>
+                                                <ComboBoxItem>Egendefinert</ComboBoxItem>
+
+                                            </ComboBox.Items>
+                                        </ComboBox>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                            <GridViewColumn Width="Auto" Header="Pris/prosent" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Pris}" FontSize="13" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                            <GridViewColumn Width="Auto" Header="Minstepris" >
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding MinstePris}" FontSize="13" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                       
+
+                        </GridView>
+                    </ListView.View>
+
+                </ListView>
+
+            </Grid>
+            
+        </UserControl>
+        <TextBlock FontSize="16" FontWeight="Bold" Margin="312,48,3,0" Name="textBlock1" Text="Tilvalg i tilvalggruppen" TextAlignment="Center" VerticalAlignment="Top" />
+    </Grid>
+</Window>

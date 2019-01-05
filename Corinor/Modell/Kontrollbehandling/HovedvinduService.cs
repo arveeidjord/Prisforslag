@@ -267,7 +267,7 @@ namespace Corinor.Kontrollbehandling
 
             //ImportExcel.Start(data.Produktbeholder);
             //ImportExcel.StartCorian2(data.Produktbeholder);
-            ImportExcel.StartCorian3(data.Produktbeholder);
+            //ImportExcel.StartCorian3(data.Produktbeholder);
 
             return true;
         }

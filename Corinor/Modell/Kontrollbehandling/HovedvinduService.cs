@@ -113,12 +113,12 @@ namespace Corinor.Kontrollbehandling
 
         public void OppdaterPrisliste()
         {
-            //setUploadImage("Oppdaterer prisliste...", BildeEnum.Updating);
+            setUploadImage("Oppdaterer prisliste...", BildeEnum.Updating);
 
-            //var p = new UpdatePrisliste2();
-            //p.PrislisteDownloded += new EventHandler(p_PrislisteDownloded);
-            //p.PrislisteDownloadError += new EventHandler(p_PrislisteDownloadError);
-            //p.GetPrislisteAsync(updateUrl);
+            var p = new UpdatePrisliste2();
+            p.PrislisteDownloded += new EventHandler(p_PrislisteDownloded);
+            p.PrislisteDownloadError += new EventHandler(p_PrislisteDownloadError);
+            p.GetPrislisteAsync(updateUrl);
         }
 
         void p_PrislisteDownloadError(object sender, EventArgs e)

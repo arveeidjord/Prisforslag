@@ -47,6 +47,14 @@ namespace Corinor.Vinduer.EndrePrislister
             InitializeComponent();
             this.db = db;
 
+            if (db.Produktbeholder.Prisgruppesamling.Count == 10)
+            {
+                for (int i = 11; i < 31; i++)
+                {
+                    db.Produktbeholder.Prisgruppesamling.Add(new FargeBeholder("Prisgruppe " + i));
+                }
+            }
+
             Liste = db.Produktbeholder.Prisgruppesamling;
 
             prisgruppeListboks.DataContext = this;

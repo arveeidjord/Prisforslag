@@ -17,6 +17,7 @@ using System.Security.AccessControl;
 using System.Net;
 using System.Windows.Media.Imaging;
 using Corinor.Properties;
+using Corinor.Modell.CorianProdukt;
 
 namespace Corinor.Kontrollbehandling
 {
@@ -263,11 +264,33 @@ namespace Corinor.Kontrollbehandling
             }
             else
                 window.Title = "Corinor prisforslag - Prisliste sist endret: " + data.Produktbeholder.SistEndret;
-                //window.Title = "Corinor prisforslag - Prisliste sist endret: " + data.Produktbeholder.getLastModified(Hjelpeklasser.GlobaleUrier.prislistefilUri());
+            //window.Title = "Corinor prisforslag - Prisliste sist endret: " + data.Produktbeholder.getLastModified(Hjelpeklasser.GlobaleUrier.prislistefilUri());
 
             //ImportExcel.Start(data.Produktbeholder);
             //ImportExcel.StartCorian2(data.Produktbeholder);
-            //ImportExcel.StartCorian3(data.Produktbeholder);
+            //ImportExcel.StartCorian4(data.Produktbeholder);
+
+            //var antall = 0;
+            //var l = new List<CorianProdukt>();
+
+            //foreach (var p in data.Produktbeholder.ProduktListe)
+            //{
+            //    var t = false;
+            //    foreach (var pg in p.Prisgrupper)
+            //    {
+            //        if (pg.Prisgrunnlag == 1034)
+            //        {
+            //            t = true;
+            //            //antall++;
+
+            //        }
+            //    }
+
+            //    if (t)
+            //        l.Add(p);
+            //}
+
+            //MessageBox.Show("" + antall);
 
             return true;
         }

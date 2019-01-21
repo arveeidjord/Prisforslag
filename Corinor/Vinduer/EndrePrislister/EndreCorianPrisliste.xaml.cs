@@ -242,22 +242,60 @@ namespace Corinor.Vinduer.EndrePrislister
             prisgruppeColumn.Header = (cmbPrisgruppe.SelectedItem as FargeBeholder).PrisgruppeNavn;
             FargeBeholder merketFargebeholder = cmb.SelectedItem as FargeBeholder;
 
+            //Ny logikk for å passe på at prisgrupper blir opprettet
+
+            var antallIkkeFunnet = 0;
+            CorianProdukt forrigeProdukt = null;
             foreach (CorianProdukt produkt in Liste)
             {
+                var funnet = false;
                 foreach (CorianPrisgruppeProdukt prisgruppe in produkt.Prisgrupper)
                 {
                     if (prisgruppe != null && prisgruppe.Farger == merketFargebeholder)
                     {
                         produkt.Prisgruppe = prisgruppe;
+                        funnet = true;
                         break;
                         
                     }
 
                 }//Prisgrupper
+
+                if (!funnet)
+                {
+                    var f = produkt.Prisgrupper.ToList();
+
+                    var prisgruppe = produkt.Prisgrupper[0].Avhengighet;
+                    if (forrigeProdukt != null && produkt.Prisgrupper[0].Avhengighet != null)
+                    {
+                        prisgruppe = forrigeProdukt.Prisgrupper.FirstOrDefault(x => x.Farger == merketFargebeholder);
+
+                        if (prisgruppe == null)
+                            MessageBox.Show("Prisgruppe er NULL");
+                    }
+
+                    var nyGruppe = new CorianPrisgruppeProdukt(0,
+                            prisgruppe, //TODO: Skal avhengighet være samme for alle prisgruper?
+                            produkt.Prisgrupper[0].prisType,
+                            merketFargebeholder);
+
+
+                    f.Add(nyGruppe);
+
+                    produkt.Prisgrupper = f.ToArray();
+                    produkt.Prisgruppe = nyGruppe;
+                    antallIkkeFunnet++;
+
+                }
+
+                forrigeProdukt = produkt;
             }//Liste
 
+            if (antallIkkeFunnet > 0)
+                MessageBox.Show("Fant ikke alle prisgrupper. Mangler på antall produkter: " + antallIkkeFunnet);
 
-            
+
+
                 //prisTypeVelger
                 //prisgrunnlagTekstboks
 

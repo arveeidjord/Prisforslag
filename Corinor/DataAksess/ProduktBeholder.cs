@@ -34,7 +34,7 @@ namespace Corinor.DataAksess
             ProduktListe = new ObservableCollection<CorianProdukt>();
             Prisgruppesamling = new List<FargeBeholder>();
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 30; i++)
                 Prisgruppesamling.Add(new FargeBeholder("Prisgruppe " + (i+1)));
 
             HeltreProduktliste = new ObservableCollection<HeltreProdukt>();

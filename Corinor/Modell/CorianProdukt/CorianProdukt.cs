@@ -23,7 +23,7 @@ namespace Corinor.Modell.CorianProdukt
             }
         }
 
-        public CorianPrisgruppeProdukt[] Prisgrupper { get; private set; }
+        public CorianPrisgruppeProdukt[] Prisgrupper { get; set; }
 
         private string _navn = "";
         public string Navn
